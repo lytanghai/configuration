@@ -1,0 +1,51 @@
+a {
+color: black;
+}
+table {
+  position:fixed;
+  top:8%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td a {
+    color: #000;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+ul li {
+    list-style: none
+}
+
+ul li a {
+    color: #270016;
+    font-weight: bold;
+    font-family: system-ui;
+
+}
+
+ul li a:hover {
+    color: #fafafa;
+    font-weight: bold;
+    font-family: system-ui;
+    text-decoration: none;
+}
+
+h5 {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
