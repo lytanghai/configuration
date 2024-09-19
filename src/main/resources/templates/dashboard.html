@@ -1,0 +1,113 @@
+<body xmlns:th="http://www.thymeleaf.org">
+<!--Header -->
+<head th:replace="~{fragments/dashboard_header :: dashboard_header}" xmlns:th="http://www.w3.org/1999/xhtml"></head>
+<!-- Sidebar -->
+<nav th:replace="~{fragments/sidebar :: sidebar}"></nav>
+
+<style>
+        main {
+            background-color: #2d104b
+        }
+        .db_h4 {
+            color: #fff;
+        }
+</style>
+<!-- Main Content -->
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2 db_h4">Dashboard</h1>
+    </div>
+
+    <div class="row db_h4">
+        <h4>Community</h4>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <a href="https://dev.to/"><button type="button" class="btn btn-warning">Dev.to</button></a>&nbsp;
+            <a href="https://daily.dev/"><button type="button" class="btn btn-success">Daily Dev</button></a>&nbsp;
+            <a href="https://www.canva.com/colors/color-wheel/"><button type="button" class="btn btn-danger">Color Wheel</button></a>&nbsp;
+        </div>
+
+        <br><br><br><br>
+        <h4>AI</h4>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <a href="https://chatgpt.com/"><button type="button" class="btn btn-success">ChatGPT</button></a>&nbsp;
+            <a href="https://poe.com/"><button type="button" class="btn btn-warning">Poe</button></a>&nbsp;
+        </div>
+
+        <br><br><br><br>
+        <h4>Online Tools</h4>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <a href="https://www.qr-code-generator.com/"><button type="button" class="btn btn-success">QR Code Generator</button></a>&nbsp;
+            <a href="https://www.unixtimestamp.com/"><button type="button" class="btn btn-danger">Unix Timestamp</button></a>&nbsp;
+            <a href="https://roadmap.sh/"><button type="button" class="btn btn-warning">Roadmap</button></a>&nbsp;
+            <a href="https://stackoverflow/"><button type="button" class="btn btn-success">Stackoverflow</button></a>&nbsp;
+        </div>
+
+        <br><br><br><br>
+        <h4>Design Online Tools</h4>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <a href="https://dbdiagram.io/"><button type="button" class="btn btn-success">Db Diagram</button></a>&nbsp;
+            <a href="https://ogom.github.io/draw_uml/plantuml/"><button type="button" class="btn btn-warning">Plantuml</button></a>&nbsp;
+            <a href="https://www.notion.so/"><button type="button" class="btn btn-danger">Notion.io</button></a>&nbsp;
+            <a href="https://app.diagrams.net/"><button type="button" class="btn btn-success">Draw.io</button></a>&nbsp;
+        </div>
+
+        <br><br><br><br>
+        <h4>Learning Resource</h4>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <a href="https://www.geeksforgeeks.org/rm-command-linux-examples/?ref=lbp"><button type="button" class="btn btn-warning">Linux</button></a>&nbsp;
+            <a href="https://www.visualpath.in/devopstutorials/devops"><button type="button" class="btn btn-danger">Devops</button></a>&nbsp;
+            <a href="https://sqlzoo.net/wiki/SQL_Tutorial"><button type="button" class="btn btn-success">SQL Zoo</button></a>&nbsp;
+            <a href="https://www.kaggle.com/code/alexisbcook/joins-and-unions"><button type="button" class="btn btn-warning">Kaggle</button></a>&nbsp;
+            <a href="https://www.mongodb.com/developer/products/mongodb/cheat-sheet/"><button type="button" class="btn btn-danger">MongoDB</button></a>&nbsp;
+            <a href="https://www.w3schools.com/go/"><button type="button" class="btn btn-warning">Go lang</button></a>&nbsp;
+            <a href="https://www.javacodegeeks.com/"><button type="button" class="btn btn-success">Java</button></a>&nbsp;
+        </div>
+
+        <br><br><br><br>
+        <h4>Education</h4>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <a href="https://kodekloud.com/"><button type="button" class="btn btn-success">KodeCloud</button></a>&nbsp;
+            <a href="https://www.udemy.com/"><button type="button" class="btn btn-warning">Udemy</button></a>&nbsp;
+            <a href="https://www.youtube.com"><button type="button" class="btn btn-danger">Youtube</button></a>&nbsp;
+        </div>
+
+        <br><br><br><br>
+        <h4>Repository</h4>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <a href="https://github.com/"><button type="button" class="btn btn-success">Github</button></a>&nbsp;
+            <a href="https://about.gitlab.com/"><button type="button" class="btn btn-danger">GitLab</button></a>&nbsp;
+            <a href="https://bitbucket.org/"><button type="button" class="btn btn-warning">Bitbucket</button></a>&nbsp;
+            <a href="https://hub.docker.com/_/registry"><button type="button" class="btn btn-success">Docker Hub</button></a>&nbsp;
+        </div>
+
+        <br><br><br><br>
+        <h4>Cloud</h4>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <a href="https://aws.amazon.com/"><button type="button" class="btn btn-danger">AWS</button></a>&nbsp;
+            <a href="https://render.com/"><button type="button" class="btn btn-success">Render IO</button></a>&nbsp;
+        </div>
+
+        <br><br><br><br>
+        <h4>Backend Software</h4>
+        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+            <a href="https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html"><button type="button" class="btn btn-success">JDK</button></a>&nbsp;
+            <a href="https://git-scm.com/downloads"><button type="button" class="btn btn-danger">Git SCM</button></a>&nbsp;
+            <a href="https://download.jetbrains.com/idea/ideaIC-2021.3.3.exe?_gl=1*5w4lt7*_gcl_aw*R0NMLjE3MTg4Njg1ODkuQ2p3S0NBandwcy16QmhBaUVpd0FMd3NWWVYzX0ZhMENjcmFmcDdmZFBuT1JuTGNYbVFRMThlbXh4MmJ1ejloRU1sbGNCYV9qLS03TDhSb0N3ZVlRQXZEX0J3RQ..*_gcl_au*ODAzOTM1MjMzLjE3MjU5NDQ2NDk.*_ga*MTE5MDc2MDU3My4xNzE1MjI0Mzcz*_ga_9J976DJZ68*MTcyNjEyOTg2Ny4xNC4wLjE3MjYxMjk4ODguMzkuMC4w"><button type="button" class="btn btn-warning">Intellij IDEA</button></a>&nbsp;
+            <a href="https://code.visualstudio.com/download"><button type="button" class="btn btn-danger">Virtual Studio Code</button></a>&nbsp;
+            <a href="https://docs.docker.com/desktop/install/windows-install/"><button type="button" class="btn btn-success">Docker (Window)</button></a> &nbsp;
+            <a href= "https://keepass.info/download.html"><button type="button" class="btn btn-danger">Keepass</button></a>&nbsp;
+            <a href="https://insomnia.rest/download"><button type="button" class="btn btn-warning">Insomnia</button></a>&nbsp;
+            <a href="https://www.postman.com/downloads/"><button type="button" class="btn btn-danger">Postman</button></a>&nbsp;
+            <a href="https://notepad-plus-plus.org/downloads/"><button type="button" class="btn btn-success">Notepad++</button></a>&nbsp;
+            <a href="https://tabby.sh/"><button type="button" class="btn btn-warning">Tabby Terminal</button></a>&nbsp;
+            <a href="https://www.pgadmin.org/download/pgadmin-4-windows/"><button type="button" class="btn btn-danger">PgAdmin4</button></a>&nbsp;
+            <a href="https://www.mongodb.com/try/download/compass"><button type="button" class="btn btn-success">MongoDB Compass</button></a>&nbsp;
+            <a href="https://dbeaver.io/download/"><button type="button" class="btn btn-warning">DBeaver</button></a>&nbsp;
+        </div>
+    </div>
+</main>
+
+<!-- Bootstrap JS and dependencies (Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
