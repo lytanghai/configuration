@@ -1,0 +1,113 @@
+<nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar" th:fragment="sidebar" xmlns:th="http://www.thymeleaf.org">
+    <h2><a></a></h2>
+    <div class="position-sticky pt-3">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <i class="bi bi-house-door"></i>
+                </a>
+            </li>
+
+            <!-- Formatter : Dropdown Item -->
+            <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="formatDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-people"></i> Formatter
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="formatDropdown">
+                    <li><a class="dropdown-item" href="/dashboard/formatter_json_beautify">JSON Beautify</a></li>
+                    <li><a class="dropdown-item" href="/dashboard/formatter_json_single_line">JSON Single Line</a></li>
+                    <li><a class="dropdown-item" href="/dashboard/formatter_json_unescape">JSON Unescape</a></li>
+                    <li><a class="dropdown-item" href="/dashboard/formatter_xml_beautify">XML</a></li>
+                    <li><a class="dropdown-item" href="/dashboard/formatter_yaml_beautify">YAML</a></li>
+                </ul>
+            </li>
+
+            <!-- Custom : Dropdown Item -->
+            <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="customDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-people"></i> Custom
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="customDropdown">
+                    <li><a class="dropdown-item" href="#">SQL</a></li>
+                    <li><a class="dropdown-item" href="#">Curl</a></li>
+                    <li><a class="dropdown-item" href="#">Groovy</a></li>
+                    <li><a class="dropdown-item" href="#">SQL</a></li>
+                    <li><a class="dropdown-item" href="#">YAML</a></li>
+                </ul>
+            </li>
+
+            <!-- Encrypt/Decrypt : Dropdown Item -->
+            <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="encryptDecryptDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-people"></i> Encrypt/Decrypt
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="encryptDecryptDropdown">
+                    <li><a class="dropdown-item" href="#">Base64</a></li>
+                    <li><a class="dropdown-item" href="#">URL</a></li>
+                    <li><a class="dropdown-item" href="#">ASCII</a></li>
+                    <li><a class="dropdown-item" href="#">Hex (Base 16)</a></li>
+                    <li><a class="dropdown-item" href="#">Hex (Base 32)</a></li>
+                    <li><a class="dropdown-item" href="#">Hex (Base 58)</a></li>
+                    <li><a class="dropdown-item" href="#">Hex (Base 64)</a></li>
+                    <li><a class="dropdown-item" href="#">HMAC</a></li>
+                    <li><a class="dropdown-item" href="#">QR Code</a></li>
+                    <li><a class="dropdown-item" href="#">Unicode</a></li>
+                    <li><a class="dropdown-item" href="#">UTF-8</a></li>
+                </ul>
+            </li>
+
+            <!-- Network : Dropdown Item -->
+            <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="networkDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-people"></i> Network
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="networkDropdown">
+                    <li><a class="dropdown-item" href="#">My IP</a></li>
+                    <li><a class="dropdown-item" href="#">IP Lookup</a></li>
+                    <li><a class="dropdown-item" href="#">DNS Lookup</a></li>
+                    <li><a class="dropdown-item" href="#">HTTP Status</a></li>
+                    <li><a class="dropdown-item" href="#">Unicode</a></li>
+                    <li><a class="dropdown-item" href="#">UTF-8</a></li>
+                </ul>
+            </li>
+
+            <!-- Timestamp : Dropdown Item -->
+            <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="timeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-people"></i> Timestamp
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="timeDropdown">
+                    <li><a class="dropdown-item" href="#">Unix Timestamp</a></li>
+                    <li><a class="dropdown-item" href="#">Epoch Timestamp</a></li>
+                </ul>
+            </li>
+
+            <!-- image : Dropdown Item -->
+            <li class="nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="imageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-people"></i> Image
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="imageDropdown">
+                    <li><a class="dropdown-item" href="#">Base64 Encoded</a></li>
+                    <li><a class="dropdown-item" href="#">Base64 Decoded</a></li>
+                    <li><a class="dropdown-item" href="#">Base64 Resizer</a></li>
+                </ul>
+            </li>
+
+            <!-- String Util : Dropdown Item -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-layers"></i> String Util
+                </a>
+            </li>
+
+            <!-- Website Embed : Dropdown Item -->
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="bi bi-layers"></i> Website Embed
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
